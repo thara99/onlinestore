@@ -1,23 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./components/header/Header"
+import Slider from "./components/home/imgslider"
+import LastProduct from "./components/home/LastProduct"
+import ItemPage from "./components/itemPage/ItemPage"
+import MostPopular from "./components/home/MostPopular"
+import Footer from "./components/home/Footer"
+import Signin from "./components/signin/SignIn"
+import Signup from "./components/signup/SignUp"
+import Checkout from "./components/checkout/Checkout";
+import Additem from "./components/itemAdd/ItemAdd"
+import Contactus from "./components/contactUs/ContactUs"
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Header/>
+      <Slider/>
+      <LastProduct/>
+      <MostPopular/>
+      <ItemPage/>
+      <Footer/>
+      <Signin/>
+      <Signup/>
+      <Checkout/>
+      <Additem/> */}
+      <Contactus/>
+
+
+      
+
     </div>
   );
 }
